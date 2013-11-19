@@ -1,0 +1,36 @@
+[user]
+	name = satusuuronen
+	email = satu.t.suuronen@gmail.com
+[core]
+	editor = vim
+	excludesfile = /Users/satusuuronen/.gitignore_global
+[credential]
+	helper = osxkeychain
+[alias]
+  staged = diff --cached
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  lbr = branch -a
+  lbrv = branch -lvvv
+	amend = commit --amend
+	cp = cherry-pick -x
+[color]
+    ui = true
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+	
+# git push will by default push all branches that have the same name
+# on the remote. To limit this behavior to just the current branch and
+# to prevent accidental pushes to branches which you’re not ready to push yet:
+[push]
+  default = tracking
+[rebase]
+  stat = true
+[interactive]
+  singlekey = true
+
+	
