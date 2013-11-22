@@ -14,8 +14,9 @@
   br = branch
   lbr = branch -a
   lbrv = branch -lvvv
-	amend = commit --amend
-	cp = cherry-pick -x
+  amend = commit --amend
+  cp = cherry-pick -x
+  full = pull --ff-only
 [color]
     ui = true
     branch = auto
